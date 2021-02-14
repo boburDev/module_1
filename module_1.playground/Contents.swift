@@ -1,5 +1,5 @@
 import UIKit
 
-var str = "Hello, playground"
+var name = "Boburmirzo"
 
-print(str)
+print(name)
