@@ -78,6 +78,7 @@ var varD = 3.14159
 var varE = 3 + 0.14159
 //print(varE)
 
+
 // Numeric Literels
 
 let decimalInteger = 17
@@ -93,3 +94,63 @@ let paddedDouble = 000123.456
 let million = 1_000_000
 let justOverOneMillion = 1_000_000.000_000_1
 
+    
+// Integer Conversion
+
+//var cannotBeNegative :UInt = -1
+//var tooBig :Int8 = Int8.max + 1
+
+var twoThousand:UInt16 = 2_000
+var one:Int8 = 1
+
+var twoThouthandAndOne = twoThousand + UInt16(one)
+
+var a = 12
+var b = 12.12
+
+var c = Double(a) + b
+
+
+// Integer and Floating Point
+
+var three = 3
+var pointOneFourOneFiveNine = 0.14159
+var pi = Double(three) + pointOneFourOneFiveNine
+
+var integerPi = Int(pi)
+
+
+//TASKS
+
+//task-1
+
+var num1 = 12
+var num2 = 12.12
+
+var sum = Double(num1) + num2
+
+//task-2
+
+var asos = 23
+var h = 23.23
+
+var s = Double(asos) * h / 2
+
+//task-3
+
+var x:Double = 12
+var y:Double = 23
+var z = 15.5
+
+var P = x + y + z
+
+//task-4 -> tepadaki qiymatlardan foydalangan holda vazifani bajaramiz
+
+var p = P / 2
+
+var S = sqrt(p * (p - x) * (p - y) * (p - z))
+
+//task-5
+
+typealias myInt = Int
+var k:myInt = 2
