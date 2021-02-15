@@ -103,3 +103,10 @@ a = c
 
 //task-3
 
+var A:Double = 100
+var B = 3.14
+var p = 2 * (A + B)
+
+//task-4 shu turtburchakni uzini toping
+
+var s = A * B
